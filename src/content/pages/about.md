@@ -1,12 +1,12 @@
 ---
 title: A Propos
 seo:
-  page_description:
-  canonical_url:
+  page_description: Découvrez notre histoire, nos valeurs et notre expertise en création de sites web. Une équipe passionnée à votre service pour donner vie à vos projets digitaux.
+  canonical_url: https://jybsoft.com/about
   featured_image:
   featured_image_alt:
   author_twitter_handle:
-  open_graph_type:
+  open_graph_type: website
   no_index: false
 content_blocks:
   - _bookshop_name: about/hero
@@ -24,7 +24,7 @@ content_blocks:
         placement: "back_top_left"
     button:
       text: "Contactez Nous"
-      link: "/signup"
+      link: "/contact"
 
   - _bookshop_name: global/counter
     title: Fait sur mesure
@@ -34,7 +34,7 @@ content_blocks:
     alternate_style: true
     numbers:
       - prefix: 
-        number: 1500h
+        number: 10000h
         suffix: +
         text: de travail passionné
       - prefix:
@@ -52,9 +52,9 @@ content_blocks:
 
   - _bookshop_name: about/video
     title: Nous aimons ce que nous faisons.
-    description: Notre équipe possède des années d'expérience dans le développement web, et nous sommes passionnés par vous aider à créer des sites et applications qui vous permettront de vous connecter avec vos clients.
+    description: Notre équipe possède des années d'expérience dans le développement web, et nous sommes passionnés par l'idée de vous aider à créer des sites et des applications qui vous permettront de vous connecter avec vos clients..
     button:
-      link: https://www.linkedin.com/
+      link: https://www.linkedin.com/company/jybsoft/
       text: Suivre sur Linkedin
     video:
       image: /images/works/banner.jpg
@@ -64,18 +64,16 @@ content_blocks:
   - _bookshop_name: about/team
     title: Nos membres fondateurs
     team_members:
+      - name: Nassim Fadili
+        designation: Co-Fondateur
+        image: /images/team/5.jpg
+        image_alt: "Team member: Nassim Fadili"
       - name: Jonathan Diouf
         designation: Co-Fondateur
         image: /images/team/1.jpg
         image_alt: "Team member: Jonathan Diouf"
-
-      - name: Yves Molina
+      - name: Mahad Idriss Guelleh
         designation: Co-Fondateur
-        image: /images/team/2.jpg
-        image_alt: "Team member: Yves Molina"
-
-      - name: Benjamin Faucheux
-        designation: Co-Fondateur
-        image: /images/team/3.jpg
-        image_alt: "Team member: Benjamin Faucheux"
+        image: /images/team/0.jpg
+        image_alt: "Team member: Mahad Idriss Guelleh"
 ---

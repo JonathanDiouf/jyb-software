@@ -1,12 +1,20 @@
 /**********
   13. Pricing Page and Section Styles
 **********/
+
+section.pricing-inner {
+  padding-bottom: 5rem;
+  margin-bottom: 30rem;
+}
+
 .pricing,
 .pricing-two {
   position: relative;
-  margin-top: $base-margin * 0.5;
+  margin-top: $base-margin * 0.3;
 
   .card {
+    margin-top: $base-margin * 0.5;
+    margin-bottom: $base-margin * 0.5;
     transition: all 0.3s ease-in-out;
     padding: $base-padding * 3.9 $base-padding * 0 $base-padding * 3.7;
     background: $color-white;

@@ -1,12 +1,12 @@
 ---
 title: Tarifs
 seo:
-  page_description:
-  canonical_url:
+  page_description: Découvrez nos tarifs transparents et compétitifs pour la création de votre site web. Obtenez un devis clair et adapté à vos besoins dès aujourd'hui !
+  canonical_url: https://jybsoft.com/pricing
   featured_image:
   featured_image_alt:
   author_twitter_handle:
-  open_graph_type:
+  open_graph_type: website
   no_index: false
 content_blocks:
   - _bookshop_name: pricing/hero
@@ -21,15 +21,33 @@ content_blocks:
         button:
           link: /contact
           text: Se renseigner
-      - tier: Maintenance
-        highlight_tier: true
+      - tier: E-commerce
+        highlight_tier: false
+        description: Nous vous proposons la création d'un site e-commerce sur mesure qui vous permettra de vendre un maximum de vos produits.
+        button:
+          link: /contact
+          text: Se renseigner
+      - tier: Design
+        highlight_tier: false
+        description: Nous réalisons un design de site web, une idendité d'entreprise et de marque selon vos désirs.
+        button:
+          link: /contact
+          text: Se renseigner
+      - tier: Maintenance & Hebergement Web
+        highlight_tier: false
         description: Nous mettons à votre disposition une équipe dédiée à la maintenance et à l'optimisation de votre site web, afin de vous assurer un fonctionnement optimal en continu.
         button:
           link: /contact
           text: Se renseigner
       - tier: Audit
         highlight_tier: false
-        description: Nous réalisons un audit complet de votre site web et nous vous fournissons un rapport détaillé des points à améliorer et à optimiser, pour maximiser l'impact de votre présence en ligne.
+        description: Nous réalisons un audit complet de votre site web et de votre présence digitale puis nous vous fournissons un rapport détaillé des points à améliorer et à optimiser, pour maximiser l'impact de votre présence en ligne.
+        button:
+          link: /contact
+          text: Se renseigner
+      - tier: Marketing Digital
+        highlight_tier: false
+        description: Nous améliorons votre présence en ligne, optimisons votre réferencement naturel (SEO) et, optionellement, nous établissons une stratégie de publicités en ligne afin de s'assurer que votre visibilité digitale soit la plus optimale.
         button:
           link: /contact
           text: Se renseigner

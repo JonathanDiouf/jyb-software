@@ -1,12 +1,12 @@
 ---
 title: Conditions Générales
 seo:
-  page_description:
-  canonical_url:
+  page_description: Consultez notre politique de confidentialité pour en savoir plus sur la collecte et l'utilisation de vos données personnelles sur notre site.
+  canonical_url: https://jybsoft.com/privacy
   featured_image:
   featured_image_alt:
   author_twitter_handle:
-  open_graph_type:
+  open_graph_type: website
   no_index: false
 content_blocks:
   - _bookshop_name: privacy/hero

@@ -1,4 +1,21 @@
 export default function ContactForm({ block, dataBinding }) {
+  const handleSubmit = (event) => {
+    console.log('test')
+    emailjs.init("iwoyxNk-INjQ3GTna");
+    const formData = new FormData(event.target);
+    const entries = Object.fromEntries(formData.entries());
+      emailjs.send(
+        'service_contact',
+        'template_ku6ke92',
+        entries
+    )
+    .then((response) => {
+        console.log('Email envoyé avec succès:', response);
+        confirmationMessage.classList.remove('hidden');
+    });
+  }
+
+
   return (
     <section className="contact" data-cms-bind={dataBinding}>
       <div className="container">
@@ -53,7 +70,7 @@ export default function ContactForm({ block, dataBinding }) {
             <div className="contact-form">
               {block.form && (
                 <>
-                  <form method="post">
+                  <form method="post" onSubmit={handleSubmit}>
                     <h3>{block.form.heading}</h3>
                     {block.form.fullname && (
                       <>
