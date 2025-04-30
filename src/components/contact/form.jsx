@@ -1,6 +1,6 @@
 export default function ContactForm({ block, dataBinding }) {
   const handleSubmit = (event) => {
-    console.log('test')
+    event.preventDefault()
     emailjs.init("iwoyxNk-INjQ3GTna");
     const formData = new FormData(event.target);
     const entries = Object.fromEntries(formData.entries());
@@ -70,7 +70,7 @@ export default function ContactForm({ block, dataBinding }) {
             <div className="contact-form">
               {block.form && (
                 <>
-                  <form method="post" onSubmit={handleSubmit}>
+                  <form onSubmit="return false;">
                     <h3>{block.form.heading}</h3>
                     {block.form.fullname && (
                       <>
@@ -149,8 +149,8 @@ export default function ContactForm({ block, dataBinding }) {
                     {block.form.submit_button && (
                       <div className="col-12">
                         <button
-                          type="submit"
                           className="btn btn-primary btn-lg mt-7"
+                          onClick={(event) => console.log("tzt")}
                         >
                           <span className="position-relative">
                             {block.form.submit_button.text}
